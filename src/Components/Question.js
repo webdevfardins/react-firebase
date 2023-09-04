@@ -48,14 +48,14 @@ export default function Question(props) {
                     className="form-control"
                     name="other"
                     
-                    placeholder="type here is not listed."
+                    placeholder="type here if not listed."
                     autoComplete="off"
                   />
                 </div>
                 <div className="form-group">
                   <label htmlFor="">
                   {" "}
-                    <b>4.</b>Please rate our cource ?
+                    <b>4.</b>Please rate our course ?
                   </label>
                   <br></br>
                   <input type="radio" id="poor" value="poor" name="q2" autoComplete="off" />
